@@ -29,48 +29,95 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
-    description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
+    name: 'Inhhair',
+    description: 'Beauty product / ecommerce',
+    link: 'https://inhhair.com/',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+      'inh.webm',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
+    name: 'Glamnetics',
+    description: 'Beauty product / ecommerce',
+    link: 'glamnetic.webm',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+      'glamnetic.webm',
     id: 'project2',
+  },
+{
+    name: 'Remyricos',
+    description: 'Hair Cut, hair solution product, services / ecommerce',
+    link: 'https://www.remyricos.com/',
+    video:
+      'remy.webm',
+    id: 'project3',
+  },
+{
+    name: 'Prosperna',
+    description: 'Creating website and dashboard for client',
+    link: 'https://prosperna.com/',
+    video:
+      'prosperna.webm',
+    id: 'project3',
+  },
+{
+    name: 'Hubble',
+    description: 'House building constraction and AI',
+    link: 'https://www.hubble.sh/',
+    video:
+      'hubble.webm',
+    id: 'project3',
   },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
+    company: 'Pru Life UK',
+    title: 'Full-stack Developer',
+    start: '2022',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: 'https://www.prulifeuk.com.ph/en/',
     id: 'work1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
+    company: 'Kombo Ventures',
+    title: 'Frontend Developer',
     start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
+    end: '2022',
+    link: 'https://www.komboventures.com/',
     id: 'work2',
   },
   {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
+    company: 'Accenture',
+    title: 'Programmer/Analyst',
+    start: '2021',
+    end: '2021',
     link: 'https://ibelick.com',
     id: 'work3',
+  },
+{
+    company: 'Genepea',
+    title: 'Freelance/Software Developer',
+    start: '2021',
+    end: '2021',
+    link: 'https://www.facebook.com/genepeaofficial/',
+    id: 'work4',
+  },
+{
+    company: 'SUHO',
+    title: 'Software Developer',
+    start: '2018',
+    end: '2020',
+    link: 'https://www.suho.com.au/',
+    id: 'work5',
+  },
+{
+    company: 'Xtendly',
+    title: 'Jr. Frontend Developer',
+    start: '2017',
+    end: '2018',
+    link: 'https://www.suho.com.au/',
+    id: 'work5',
   },
 ]
 
@@ -82,10 +129,10 @@ export const BLOG_POSTS: BlogPost[] = [
     uid: 'blog-1',
   },
   {
-    title: 'Why I left my job to start my own company',
+    title: 'How to be Software Developer 2024',
     description:
       'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+    link: '/blog/how-to-be-software-developer',
     uid: 'blog-2',
   },
   {
@@ -100,20 +147,20 @@ export const BLOG_POSTS: BlogPost[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
+    link: 'https://github.com/ianmedina0909',
   },
   {
     label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: '',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'www.linkedin.com/in/ian-medina-6aa1461a4',
   },
   {
     label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: '',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'ianmedina0909@gmail.com'
